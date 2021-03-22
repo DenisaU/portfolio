@@ -1,0 +1,101 @@
+/* CCS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Shippori Mincho B1', serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+margin: 16px;
+font-size: 20px;
+}
+#description{
+    margin-left: 2%;
+    margin-bottom: 5px;
+    font-family: 'Shippori Mincho B1', serif;
+    width: 250px;
+}
+#date, #amount{
+    margin-left: 2%;
+    margin-bottom: 5px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+table{
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgba(139, 212, 212);
+    color: white;
+
+}
+
+#addExpense{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Shippori Mincho B1', serif;
+    background-color:rgba(139, 212, 212, .2);
+    border-radius: 20%;
+    border-color:rgba(139, 212, 212);
+    
+}
+#editButton, #deleteButton{
+    
+    font-family: 'Shippori Mincho B1', serif;
+    background-color:rgba(139, 212, 212, .2);
+    border-radius: 20%;
+    border-color:rgba(139, 212, 212); 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    display: block;
+    
+}
+td{
+    width: 8px;;
+    word-break:break-all;
+}
+

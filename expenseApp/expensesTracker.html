@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <script src="expensesTracker.js"></script>
+    <link rel="stylesheet" href="expensesTracket.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Expenses tracker</h1>
+    <input type="hidden" id="hiddenID">
+    <textarea id="description" placeholder="Write your expense here"></textarea><br>
+    <input type="date" id="date"><br>
+    <input id="amount" type="number" value="0"><br>
+    <button id="addExpense" onclick="addExpense()">Add Expense</button>
+    <p id="expensesTable"></p>
+</body>
+</html>
