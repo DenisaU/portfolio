@@ -1,0 +1,42 @@
+
+img{
+    border-radius: 10px;
+    height: 100%;
+    width: 23%;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+#score, #scoreNumber{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0%;
+    float:left
+}
+
+#playField{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0px auto;
+}
+
+body{
+    background-color: #FFFFE0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    img{
+        width: 30%;
+    }
+}
+  
