@@ -89,14 +89,14 @@ function turnPicture(id) {
         return;
     }
 
-    setTimeout(wait,1000);    //Waits 1 second before turning unmatched cards back
+    setTimeout(wait,3000);    //Waits 1 second before turning unmatched cards back
 
 }
 
 //---------End of Turning Card----------------------------------------------
 
 
-//---------If cards do not match they are turned back after 1 second--------
+//---------If cards do not match they are turned back after 3 seconds--------
 function wait() {
 
     for (let i = 0; i < pictures.length; i++) {
@@ -110,7 +110,7 @@ function wait() {
     } turnCounter = 0;
 
 }
-//---------End of If cards do not match they are turned back after 1 second--
+//---------End of If cards do not match they are turned back after 3 seconds--
 
 
 
