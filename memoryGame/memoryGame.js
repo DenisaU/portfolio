@@ -89,7 +89,7 @@ function turnPicture(id) {
         return;
     }
 
-    setTimeout(wait,3000);    //Waits 1 second before turning unmatched cards back
+    setTimeout(wait,3000);    //Waits 3 seconds before turning unmatched cards back
 
 }
 
